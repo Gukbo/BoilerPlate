@@ -16,7 +16,7 @@ mongoose
   .then(() => console.log("MONGODB CONNECTED"))
   .catch((err) => console.log(err));
 
-app.get("/", (req, res) => res.send("Hello World ! bb"));
+app.get("/", (req, res) => res.send("Hello World ! bbb"));
 
 app.post("/register", async (req, res) => {
   const user = new User(req.body);
